@@ -1,0 +1,113 @@
+#div1, #myImage   {
+	/*border:1px solid red;*/
+	/*display:flex;
+	align-items:center;
+	justify-content:center;*/
+	position:relative;
+	left:50%;
+	transform:translate(-50%);
+}
+#myImage{
+	border:1px solid blue;
+	width:270px;
+	height:270px;
+	z-index:-1;
+	overflow-y:hidden;
+}
+#div1 {
+	//border:5px solid red;
+	width:300px;
+	height:auto;
+	background-color:#abd5ff;
+	
+}
+.movement {
+    width:200px;
+	//border:1px solid black;
+	left:50%;
+	transform:translate(-50%);
+	position:relative;
+	background:white;
+	
+}
+
+.btn {
+	width:98px;
+	height:50px;
+	border:0;
+	position:relative;
+	left:50%;
+	transform:translate(-50%);
+}
+.btn:hover {
+	background-color:black;
+	color:white;
+}
+.tbl,tr,td {
+	//border:1px solid red;
+	width:auto;
+}
+#myRange,#myRange2 {
+	position:relative;
+	left:50%;
+	transform:translate(-50%);
+}
+.pe { margin-left:30px; }
+
+.slider {
+	-webkit-appearance: none;  /* Override default CSS styles */
+	appearance: none;
+    width: 150px; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+#myCanvas {
+	filter: Chroma(Color = #F200FF);
+}
+#button5 {
+position:fixed;
+left:100%;
+transform:translate(-100%);
+z-index:999;
+border-radius:5px;
+background-color:#8af27e;
+}
+
+#button5:hover {
+	color:white;
+	background-color:#7ed9f2;
+}
+#myFrame {
+width:500px;
+height:600px;
+position:fixed;
+z-index:1;
+top:0%;
+left:50%;
+transform:translate(-50%,-0%);
+display:none;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <script type="text/javascript" src="loadImage.js"></script>
+    <link href="main.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <button id="button5" class="btn">Donate!!!</button>
+    <embed src="info.html" id="myFrame"></embed>
+    <div id="div1">
+        <div id="myImage">
+        </div>
+        <br><br>
+        <div class="movement">
+            <table class="tbl" cellspacing="0">
+                <tr>
+                    <td>
+                        <button class="btn" id="button1">Smile</button>
+                    </td>
+                    <td>
+                        <button class="btn" id="button2">Sad</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn" id="button3">Open</button>
+                    </td>
+                    <td>
+                        <button class="btn" id="button4">Close</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="slidecontainer">
+                        <p class="pe" id="rn">Blush</p>
+                        <input type="range" min="0" max="100" value="50" class="slider" id="myRange" oninput="update(this.value)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="slidecontainer">
+                        <p class="pe" id="rn">Hide</p>
+                        <input type="range" min="0" max="100" value="0" class="slider" id="myRange2" oninput="update2(this.value)">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
